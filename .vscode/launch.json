@@ -1,0 +1,90 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - numberplate",
+            "request": "launch",
+            "mainClass": "numberplate",
+            "projectName": "Java_Collage_7d868134"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - smallfactor",
+            "request": "launch",
+            "mainClass": "smallfactor",
+            "projectName": "Java_a316f000"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - numberplate",
+            "request": "launch",
+            "mainClass": "numberplate",
+            "projectName": "Java_a316f000"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - alpha",
+            "request": "launch",
+            "mainClass": "alpha",
+            "projectName": "Java_a316f000"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - bmi",
+            "request": "launch",
+            "mainClass": "bmi",
+            "projectName": "Java_a316f000"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - converter",
+            "request": "launch",
+            "mainClass": "converter",
+            "projectName": "Java_a316f000"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - cramer",
+            "request": "launch",
+            "mainClass": "cramer",
+            "projectName": "Java_a316f000"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - hello",
+            "request": "launch",
+            "mainClass": "hello"
+        },
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        }
+    ]
+}
