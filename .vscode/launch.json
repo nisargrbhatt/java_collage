@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - reverser10",
+            "request": "launch",
+            "mainClass": "reverser10",
+            "projectName": "Java_Collage_7d868134"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - gcd9",
+            "request": "launch",
+            "mainClass": "gcd9",
+            "projectName": "Java_Collage_7d868134"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - numberplate",
             "request": "launch",
             "mainClass": "numberplate",
