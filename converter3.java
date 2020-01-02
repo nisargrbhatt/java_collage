@@ -1,6 +1,10 @@
+
+/* Write a program that reads a number in meters, 
+converts it to feet, and displays the result.
+*/
 import java.util.Scanner;
 
-public class converter {
+public class converter3 {
     public static void main(String args[]) {
 
         Scanner input = new Scanner(System.in);

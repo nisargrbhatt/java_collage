@@ -1,4 +1,8 @@
-public class numberplate {
+/* Assume a vehicle plate number consists of three uppercase letters followed by four digits. 
+Write a program to generate a plate number.
+*/
+
+public class numberplate7 {
     public static void main(String[] args) {
 
         int letter1 = 65 + (int) (Math.random() * (90 - 65));
