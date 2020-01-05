@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - dec_fra16",
+            "request": "launch",
+            "mainClass": "dec_fra16",
+            "projectName": "Java_Collage_7d868134"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - b2d15",
+            "request": "launch",
+            "mainClass": "b2d15",
+            "projectName": "Java_Collage_7d868134"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - arr_list14",
+            "request": "launch",
+            "mainClass": "arr_list14",
+            "projectName": "Java_Collage_7d868134"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - string_calc13",
+            "request": "launch",
+            "mainClass": "string_calc13",
+            "projectName": "Java_Collage_7d868134"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - calc13",
+            "request": "launch",
+            "mainClass": "calc13",
+            "projectName": "Java_Collage_7d868134"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ran_obj12",
+            "request": "launch",
+            "mainClass": "ran_obj12",
+            "projectName": "Java_Collage_7d868134"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - reverser10",
             "request": "launch",
             "mainClass": "reverser10",
