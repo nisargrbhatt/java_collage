@@ -15,7 +15,7 @@ public class bmi4 {
         weight = weight * (0.45359237);
         System.out.print("\nInput height in inch: ");
         double height = sc.nextDouble();
-        height = height * (0.254);
+        height = height * (0.0254);
         double BMI = weight / (height * height);
         System.out.println("\nThe Body Mass Index (BMI) is " + BMI + " kg/m2");
 
