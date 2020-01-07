@@ -1,9 +1,12 @@
+/* Write  a  program  that  prompts  the  user  to  enter  
+a  decimal  number  and  displays  the  number  in  a fraction.
+Hint:  Read  the  decimal  number  as  a  string,  extract  the  integer  part  
+and  fractional  part  from  the string.
+*/
+
 import java.io.BufferedReader;
-
 import java.io.InputStreamReader;
-
 import java.io.IOException;
-
 import java.text.NumberFormat;
 
 public class dec_fra16 {
