@@ -1,3 +1,6 @@
+
+/* Write a program that moves a circle up, down, left or right using arrow keys.
+*/
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.shape.Circle;
