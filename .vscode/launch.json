@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - arr_obj14",
+            "request": "launch",
+            "mainClass": "arr_obj14",
+            "projectName": "java_collage_a0a240c2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - array11",
+            "request": "launch",
+            "mainClass": "array11",
+            "projectName": "java_collage_a0a240c2"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - dec_fra16",
             "request": "launch",
             "mainClass": "dec_fra16",
