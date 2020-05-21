@@ -4,19 +4,19 @@
 import java.util.Scanner;
 
 public class rec_pro22 {
-    public static int max(int[] ls) {
-        int max = ls[ls.length - 1];
+    public static int min(int[] ls) {
+        int min = ls[ls.length - 1];
         int index = ls.length - 1;
-        return max(ls, index, max);
+        return min(ls, index, min);
     }
 
-    private static int max(int[] ls, int index, int max) {
+    private static int min(int[] ls, int index, int min) {
         if (index < 0) {
-            return max;
-        } else if (ls[index] > max) {
-            return max(ls, index - 1, ls[index]);
+            return min;
+        } else if (ls[index] < min) {
+            return min(ls, index - 1, ls[index]);
         } else {
-            return max(ls, index - 1, max);
+            return min(ls, index - 1, min);
         }
     }
 
@@ -28,7 +28,7 @@ public class rec_pro22 {
         for (int i = 0; i < ls.length; i++) {
             ls[i] = sc.nextInt();
         }
-        System.out.println("The max number is " + max(ls));
+        System.out.println("The min number is " + min(ls));
     }
 
 }
