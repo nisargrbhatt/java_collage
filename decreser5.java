@@ -6,12 +6,12 @@ import java.util.Scanner;
 
 public class decreser5 {
     public static void main(String args[]) {
-        Scanner input = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter three integers: ");
-        int number1 = input.nextInt();
-        int number2 = input.nextInt();
-        int number3 = input.nextInt();
+        int number1 = sc.nextInt();
+        int number2 = sc.nextInt();
+        int number3 = sc.nextInt();
 
         int temp;
         if (number2 < number1 || number3 < number1) {
